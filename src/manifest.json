@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "SEARCHER MELI",
+    "version": "1.0",
+    "description": "A simple Chrome extension",
+    "permissions": ["storage", "activeTab", "scripting"],
+    "background": {
+      "service_worker": "dist/background.js"
+    }
+  }
+  
